@@ -1,0 +1,2728 @@
+{
+    "query": {
+        "dbrepllag": [
+            {
+                "host": "", 
+                "lag": -1
+            }
+        ], 
+        "extensions": [
+            {
+                "author": "Brion Vibber, Jeroen De Dauw", 
+                "descriptionmsg": "nuke-desc", 
+                "license": "/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F/License/Nuke", 
+                "license-name": "", 
+                "name": "Nuke", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Nuke", 
+                "version": "1.2.0"
+            }, 
+            {
+                "author": "Bartek \u0141api\u0144ski", 
+                "descriptionmsg": "deletebatch-desc", 
+                "name": "Delete Batch", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:DeleteBatch", 
+                "version": "1.5.0"
+            }, 
+            {
+                "author": "Stephanie Amanda Stevens, Alexandre Emsenhuber, Robin Pepermans, Siebrand Mazeland, Platonides, Raimond Spekking, Sam Reed, ...", 
+                "descriptionmsg": "interwiki-desc", 
+                "license": "/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F/License/Interwiki", 
+                "license-name": "", 
+                "name": "Interwiki", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Interwiki", 
+                "version": "2.3 20140327"
+            }, 
+            {
+                "author": "Tim Laqua, Thomas Gries, Matthew April", 
+                "descriptionmsg": "usermerge-desc", 
+                "name": "User Merge and Delete", 
+                "type": "specialpage", 
+                "url": "https://www.mediawiki.org/wiki/Extension:User_Merge_and_Delete", 
+                "version": "1.9.0"
+            }, 
+            {
+                "author": "\u00c6var Arnfj\u00f6r\u00f0 Bjarmason, Marius Hoch", 
+                "descriptionmsg": "cite-desc", 
+                "license": "/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F/License/Cite", 
+                "license-name": "", 
+                "name": "Cite", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:Cite/Cite.php"
+            }, 
+            {
+                "author": "Tim Starling, Robert Rohde, Ross McClure, Juraj Simlovic", 
+                "descriptionmsg": "pfunc_desc", 
+                "license": "/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F/License/ParserFunctions", 
+                "license-name": "", 
+                "name": "ParserFunctions", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ParserFunctions", 
+                "version": "1.6.0"
+            }, 
+            {
+                "author": "Brion Vibber", 
+                "descriptionmsg": "charinsert-desc", 
+                "license": "/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F/License/CharInsert", 
+                "license-name": "", 
+                "name": "CharInsert", 
+                "type": "parserhook", 
+                "url": "https://www.mediawiki.org/wiki/Extension:CharInsert"
+            }, 
+            {
+                "author": "Alberto Sarullo, SignpostMarv Martin", 
+                "description": "VideoFlash (YouTube, GoogleVideo, Dailymotion, sevenload...)", 
+                "name": "VideoFlash", 
+                "type": "parserhook", 
+                "url": "http://www.mediawiki.org/wiki/Extension:VideoFlash"
+            }, 
+            {
+                "author": "Brion Vibber, ...", 
+                "descriptionmsg": "captcha-desc", 
+                "license": "/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F/License/ConfirmEdit", 
+                "license-name": "", 
+                "name": "ConfirmEdit", 
+                "type": "antispam", 
+                "url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit", 
+                "version": "1.3"
+            }, 
+            {
+                "author": "Trevor Parscal, Roan Kattouw, Nimish Gautam, Adam Miller", 
+                "descriptionmsg": "wikieditor-desc", 
+                "license": "/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F/License/WikiEditor", 
+                "license-name": "", 
+                "name": "WikiEditor", 
+                "type": "other", 
+                "url": "https://www.mediawiki.org/wiki/Extension:WikiEditor", 
+                "version": "0.4.0"
+            }
+        ], 
+        "fileextensions": [
+            {
+                "ext": "jpg"
+            }, 
+            {
+                "ext": "gif"
+            }, 
+            {
+                "ext": "png"
+            }, 
+            {
+                "ext": "pdf"
+            }, 
+            {
+                "ext": "djvu"
+            }, 
+            {
+                "ext": "zip"
+            }, 
+            {
+                "ext": "rar"
+            }, 
+            {
+                "ext": "bin"
+            }, 
+            {
+                "ext": "rom"
+            }, 
+            {
+                "ext": "svg"
+            }, 
+            {
+                "ext": "jpeg"
+            }, 
+            {
+                "ext": "bmp"
+            }
+        ], 
+        "general": {
+            "articlepath": "/$1", 
+            "base": "https://speccy.info/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0", 
+            "case": "first-letter", 
+            "dbtype": "mysql", 
+            "dbversion": "5.5.5-10.6.12-MariaDB-0ubuntu0.22.04.1", 
+            "fallback": [
+                {
+                    "code": "en"
+                }
+            ], 
+            "fallback8bitEncoding": "windows-1251", 
+            "favicon": "https://speccy.info/favicon.ico", 
+            "generator": "MediaWiki 1.23.6", 
+            "imagelimits": [
+                {
+                    "height": 240, 
+                    "width": 320
+                }, 
+                {
+                    "height": 480, 
+                    "width": 640
+                }, 
+                {
+                    "height": 600, 
+                    "width": 800
+                }, 
+                {
+                    "height": 768, 
+                    "width": 1024
+                }, 
+                {
+                    "height": 1024, 
+                    "width": 1280
+                }
+            ], 
+            "imagewhitelistenabled": "", 
+            "lang": "ru", 
+            "langconversion": "", 
+            "linkprefix": "", 
+            "linkprefixcharset": "", 
+            "linktrail": "/^([a-z\u0430\u0431\u0432\u0433\u0434\u0435\u0451\u0436\u0437\u0438\u0439\u043a\u043b\u043c\u043d\u043e\u043f\u0440\u0441\u0442\u0443\u0444\u0445\u0446\u0447\u0448\u0449\u044a\u044b\u044c\u044d\u044e\u044f]+)(.*)$/sDu", 
+            "logo": "https://speccy.info/w/images/logo.png", 
+            "mainpage": "\u0417\u0430\u0433\u043b\u0430\u0432\u043d\u0430\u044f \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", 
+            "maxuploadsize": 104857600, 
+            "phpsapi": "fpm-fcgi", 
+            "phpversion": "5.6.40-66+ubuntu22.04.1+deb.sury.org+1", 
+            "script": "/w/index.php", 
+            "scriptpath": "/w", 
+            "server": "https://speccy.info", 
+            "sitename": "SpeccyWiki", 
+            "thumblimits": [
+                120, 
+                150, 
+                180, 
+                200, 
+                250, 
+                300
+            ], 
+            "time": "2023-06-29T13:51:33Z", 
+            "timeoffset": 0, 
+            "timezone": "UTC", 
+            "titleconversion": "", 
+            "variantarticlepath": false, 
+            "wikiid": "db_speccyinfo-WIKI_", 
+            "writeapi": ""
+        }, 
+        "interwikimap": [], 
+        "magicwords": [
+            {
+                "aliases": [
+                    "\u0435\u0441\u043b\u0438", 
+                    "if"
+                ], 
+                "name": "if"
+            }, 
+            {
+                "aliases": [
+                    "\u0435\u0441\u043b\u0438\u043e\u0448\u0438\u0431\u043a\u0430", 
+                    "iferror"
+                ], 
+                "name": "iferror"
+            }, 
+            {
+                "aliases": [
+                    "\u043f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0430\u0442\u0435\u043b\u044c", 
+                    "switch"
+                ], 
+                "name": "switch"
+            }, 
+            {
+                "aliases": [
+                    "#\u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u0435", 
+                    "#default"
+                ], 
+                "name": "default"
+            }, 
+            {
+                "aliases": [
+                    "\u0432\u0440\u0435\u043c\u044f", 
+                    "time"
+                ], 
+                "name": "time"
+            }, 
+            {
+                "aliases": [
+                    "\u043c\u0432\u0440\u0435\u043c\u044f", 
+                    "timel"
+                ], 
+                "name": "timel"
+            }, 
+            {
+                "aliases": [
+                    "\u0437\u0430\u043c\u0435\u043d\u0430", 
+                    "replace"
+                ], 
+                "name": "replace"
+            }, 
+            {
+                "aliases": [
+                    "expr"
+                ], 
+                "name": "expr"
+            }, 
+            {
+                "aliases": [
+                    "ifeq"
+                ], 
+                "name": "ifeq"
+            }, 
+            {
+                "aliases": [
+                    "ifexpr"
+                ], 
+                "name": "ifexpr"
+            }, 
+            {
+                "aliases": [
+                    "ifexist"
+                ], 
+                "name": "ifexist"
+            }, 
+            {
+                "aliases": [
+                    "rel2abs"
+                ], 
+                "name": "rel2abs"
+            }, 
+            {
+                "aliases": [
+                    "titleparts"
+                ], 
+                "name": "titleparts"
+            }, 
+            {
+                "aliases": [
+                    "len"
+                ], 
+                "name": "len"
+            }, 
+            {
+                "aliases": [
+                    "pos"
+                ], 
+                "name": "pos"
+            }, 
+            {
+                "aliases": [
+                    "rpos"
+                ], 
+                "name": "rpos"
+            }, 
+            {
+                "aliases": [
+                    "sub"
+                ], 
+                "name": "sub"
+            }, 
+            {
+                "aliases": [
+                    "count"
+                ], 
+                "name": "count"
+            }, 
+            {
+                "aliases": [
+                    "explode"
+                ], 
+                "name": "explode"
+            }, 
+            {
+                "aliases": [
+                    "urldecode"
+                ], 
+                "name": "urldecode"
+            }, 
+            {
+                "aliases": [
+                    "#\u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435", 
+                    "#\u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440", 
+                    "#REDIRECT"
+                ], 
+                "name": "redirect"
+            }, 
+            {
+                "aliases": [
+                    "__\u0411\u0415\u0417_\u041e\u0413\u041b\u0410\u0412\u041b\u0415\u041d\u0418\u042f__", 
+                    "__\u0411\u0415\u0417_\u041e\u0413\u041b__", 
+                    "__NOTOC__"
+                ], 
+                "name": "notoc"
+            }, 
+            {
+                "aliases": [
+                    "__\u0411\u0415\u0417_\u0413\u0410\u041b\u0415\u0420\u0415\u0418__", 
+                    "__NOGALLERY__"
+                ], 
+                "name": "nogallery"
+            }, 
+            {
+                "aliases": [
+                    "__\u041e\u0411\u042f\u0417\u0410\u0422\u0415\u041b\u042c\u041d\u041e\u0415_\u041e\u0413\u041b\u0410\u0412\u041b\u0415\u041d\u0418\u0415__", 
+                    "__\u041e\u0411\u042f\u0417_\u041e\u0413\u041b__", 
+                    "__FORCETOC__"
+                ], 
+                "name": "forcetoc"
+            }, 
+            {
+                "aliases": [
+                    "__\u041e\u0413\u041b\u0410\u0412\u041b\u0415\u041d\u0418\u0415__", 
+                    "__\u041e\u0413\u041b__", 
+                    "__TOC__"
+                ], 
+                "name": "toc"
+            }, 
+            {
+                "aliases": [
+                    "__\u0411\u0415\u0417_\u0420\u0415\u0414\u0410\u041a\u0422\u0418\u0420\u041e\u0412\u0410\u041d\u0418\u042f_\u0420\u0410\u0417\u0414\u0415\u041b\u0410__", 
+                    "__NOEDITSECTION__"
+                ], 
+                "name": "noeditsection"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u041c\u0415\u0421\u042f\u0426", 
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u041c\u0415\u0421\u042f\u0426_2", 
+                    "CURRENTMONTH", 
+                    "CURRENTMONTH2"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonth"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u041c\u0415\u0421\u042f\u0426_1", 
+                    "CURRENTMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonth1"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0422\u0415\u041a\u0423\u0429\u0415\u0413\u041e_\u041c\u0415\u0421\u042f\u0426\u0410", 
+                    "CURRENTMONTHNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthname"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0422\u0415\u041a\u0423\u0429\u0415\u0413\u041e_\u041c\u0415\u0421\u042f\u0426\u0410_\u0420\u041e\u0414", 
+                    "CURRENTMONTHNAMEGEN"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthnamegen"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0422\u0415\u041a\u0423\u0429\u0415\u0413\u041e_\u041c\u0415\u0421\u042f\u0426\u0410_\u0410\u0411\u0420", 
+                    "CURRENTMONTHABBREV"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentmonthabbrev"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u0414\u0415\u041d\u042c", 
+                    "CURRENTDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentday"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u0414\u0415\u041d\u042c_2", 
+                    "CURRENTDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentday2"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0422\u0415\u041a\u0423\u0429\u0415\u0413\u041e_\u0414\u041d\u042f", 
+                    "CURRENTDAYNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentdayname"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u0413\u041e\u0414", 
+                    "CURRENTYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentyear"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0415\u0415_\u0412\u0420\u0415\u041c\u042f", 
+                    "CURRENTTIME"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenttime"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u0427\u0410\u0421", 
+                    "CURRENTHOUR"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenthour"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u041c\u0415\u0421\u042f\u0426", 
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u041c\u0415\u0421\u042f\u0426_2", 
+                    "LOCALMONTH", 
+                    "LOCALMONTH2"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonth"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u041c\u0415\u0421\u042f\u0426_1", 
+                    "LOCALMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonth1"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u041c\u0415\u0421\u0422\u041d\u041e\u0413\u041e_\u041c\u0415\u0421\u042f\u0426\u0410", 
+                    "LOCALMONTHNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthname"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u041c\u0415\u0421\u0422\u041d\u041e\u0413\u041e_\u041c\u0415\u0421\u042f\u0426\u0410_\u0420\u041e\u0414", 
+                    "LOCALMONTHNAMEGEN"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthnamegen"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u041c\u0415\u0421\u0422\u041d\u041e\u0413\u041e_\u041c\u0415\u0421\u042f\u0426\u0410_\u0410\u0411\u0420", 
+                    "LOCALMONTHABBREV"
+                ], 
+                "case-sensitive": "", 
+                "name": "localmonthabbrev"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u0414\u0415\u041d\u042c", 
+                    "LOCALDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "localday"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u0414\u0415\u041d\u042c_2", 
+                    "LOCALDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "localday2"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u041c\u0415\u0421\u0422\u041d\u041e\u0413\u041e_\u0414\u041d\u042f", 
+                    "LOCALDAYNAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localdayname"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u0413\u041e\u0414", 
+                    "LOCALYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "localyear"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u041e\u0415_\u0412\u0420\u0415\u041c\u042f", 
+                    "LOCALTIME"
+                ], 
+                "case-sensitive": "", 
+                "name": "localtime"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u0427\u0410\u0421", 
+                    "LOCALHOUR"
+                ], 
+                "case-sensitive": "", 
+                "name": "localhour"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u0421\u0422\u0420\u0410\u041d\u0418\u0426", 
+                    "NUMBEROFPAGES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofpages"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u0421\u0422\u0410\u0422\u0415\u0419", 
+                    "NUMBEROFARTICLES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofarticles"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u0424\u0410\u0419\u041b\u041e\u0412", 
+                    "NUMBEROFFILES"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberoffiles"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u0423\u0427\u0410\u0421\u0422\u041d\u0418\u041a\u041e\u0412", 
+                    "NUMBEROFUSERS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofusers"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u0410\u041a\u0422\u0418\u0412\u041d\u042b\u0425_\u0423\u0427\u0410\u0421\u0422\u041d\u0418\u041a\u041e\u0412", 
+                    "NUMBEROFACTIVEUSERS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofactiveusers"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u041f\u0420\u0410\u0412\u041e\u041a", 
+                    "NUMBEROFEDITS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofedits"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u041f\u0420\u041e\u0421\u041c\u041e\u0422\u0420\u041e\u0412", 
+                    "NUMBEROFVIEWS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofviews"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b", 
+                    "PAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagename"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_2", 
+                    "PAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u041e_\u0418\u041c\u0401\u041d", 
+                    "NAMESPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespace"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u041e_\u0418\u041c\u0401\u041d_2", 
+                    "NAMESPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespacee"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u041e\u041c\u0415\u0420_\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u0410_\u0418\u041c\u0401\u041d", 
+                    "NAMESPACENUMBER"
+                ], 
+                "case-sensitive": "", 
+                "name": "namespacenumber"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u041e_\u041e\u0411\u0421\u0423\u0416\u0414\u0415\u041d\u0418\u0419", 
+                    "TALKSPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkspace"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u041e_\u041e\u0411\u0421\u0423\u0416\u0414\u0415\u041d\u0418\u0419_2", 
+                    "TALKSPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkspacee"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u041e_\u0421\u0422\u0410\u0422\u0415\u0419", 
+                    "SUBJECTSPACE", 
+                    "ARTICLESPACE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectspace"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u041e_\u0421\u0422\u0410\u0422\u0415\u0419_2", 
+                    "SUBJECTSPACEE", 
+                    "ARTICLESPACEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectspacee"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u041e\u041b\u041d\u041e\u0415_\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b", 
+                    "FULLPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "fullpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u041e\u041b\u041d\u041e\u0415_\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_2", 
+                    "FULLPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "fullpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u041f\u041e\u0414\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b", 
+                    "SUBPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "subpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u041f\u041e\u0414\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_2", 
+                    "SUBPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u041e\u0421\u041d\u041e\u0412\u0410_\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u042f_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b", 
+                    "BASEPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "basepagename"
+            }, 
+            {
+                "aliases": [
+                    "\u041e\u0421\u041d\u041e\u0412\u0410_\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u042f_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_2", 
+                    "BASEPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "basepagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_\u041e\u0411\u0421\u0423\u0416\u0414\u0415\u041d\u0418\u042f", 
+                    "TALKPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_\u041e\u0411\u0421\u0423\u0416\u0414\u0415\u041d\u0418\u042f_2", 
+                    "TALKPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "talkpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_\u0421\u0422\u0410\u0422\u042c\u0418", 
+                    "SUBJECTPAGENAME", 
+                    "ARTICLEPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectpagename"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b_\u0421\u0422\u0410\u0422\u042c\u0418_2", 
+                    "SUBJECTPAGENAMEE", 
+                    "ARTICLEPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "subjectpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u041e\u041e\u0411\u0429\u0415\u041d\u0418\u0415:", 
+                    "\u0421\u041e\u041e\u0411\u0429:", 
+                    "MSG:"
+                ], 
+                "name": "msg"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u041e\u0414\u0421\u0422\u0410\u041d\u041e\u0412\u041a\u0410:", 
+                    "\u041f\u041e\u0414\u0421\u0422:", 
+                    "SUBST:"
+                ], 
+                "name": "subst"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0410\u0429\u041f\u041e\u0414\u0421\u0422:", 
+                    "SAFESUBST:"
+                ], 
+                "name": "safesubst"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u041e\u041e\u0411\u0429_\u0411\u0415\u0417_\u0412\u0418\u041a\u0418:", 
+                    "MSGNW:"
+                ], 
+                "name": "msgnw"
+            }, 
+            {
+                "aliases": [
+                    "\u043c\u0438\u043d\u0438", 
+                    "\u043c\u0438\u043d\u0438\u0430\u0442\u044e\u0440\u0430", 
+                    "thumbnail", 
+                    "thumb"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_thumbnail"
+            }, 
+            {
+                "aliases": [
+                    "\u043c\u0438\u043d\u0438=$1", 
+                    "\u043c\u0438\u043d\u0438\u0430\u0442\u044e\u0440\u0430=$1", 
+                    "thumbnail=$1", 
+                    "thumb=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_manualthumb"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u043f\u0440\u0430\u0432\u0430", 
+                    "right"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_right"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u043b\u0435\u0432\u0430", 
+                    "left"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_left"
+            }, 
+            {
+                "aliases": [
+                    "\u0431\u0435\u0437", 
+                    "none"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_none"
+            }, 
+            {
+                "aliases": [
+                    "$1\u043f\u043a\u0441", 
+                    "$1px"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_width"
+            }, 
+            {
+                "aliases": [
+                    "\u0446\u0435\u043d\u0442\u0440", 
+                    "center", 
+                    "centre"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_center"
+            }, 
+            {
+                "aliases": [
+                    "\u043e\u0431\u0440\u0430\u043c\u0438\u0442\u044c", 
+                    "framed", 
+                    "enframed", 
+                    "frame"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_framed"
+            }, 
+            {
+                "aliases": [
+                    "\u0431\u0435\u0437\u0440\u0430\u043c\u043a\u0438", 
+                    "frameless"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_frameless"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430=$1", 
+                    "\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430 $1", 
+                    "page=$1", 
+                    "page $1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_page"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u0432\u0435\u0440\u0445\u0443\u0441\u043f\u0440\u0430\u0432\u0430", 
+                    "\u0441\u0432\u0435\u0440\u0445\u0443\u0441\u043f\u0440\u0430\u0432\u0430=$1", 
+                    "\u0441\u0432\u0435\u0440\u0445\u0443\u0441\u043f\u0440\u0430\u0432\u0430 $1", 
+                    "upright", 
+                    "upright=$1", 
+                    "upright $1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_upright"
+            }, 
+            {
+                "aliases": [
+                    "\u0433\u0440\u0430\u043d\u0438\u0446\u0430", 
+                    "border"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_border"
+            }, 
+            {
+                "aliases": [
+                    "\u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u0435", 
+                    "baseline"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_baseline"
+            }, 
+            {
+                "aliases": [
+                    "\u043f\u043e\u0434", 
+                    "sub"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_sub"
+            }, 
+            {
+                "aliases": [
+                    "\u043d\u0430\u0434", 
+                    "super", 
+                    "sup"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_super"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u0432\u0435\u0440\u0445\u0443", 
+                    "top"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_top"
+            }, 
+            {
+                "aliases": [
+                    "\u0442\u0435\u043a\u0441\u0442-\u0441\u0432\u0435\u0440\u0445\u0443", 
+                    "text-top"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_text_top"
+            }, 
+            {
+                "aliases": [
+                    "\u043f\u043e\u0441\u0435\u0440\u0435\u0434\u0438\u043d\u0435", 
+                    "middle"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_middle"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u043d\u0438\u0437\u0443", 
+                    "bottom"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_bottom"
+            }, 
+            {
+                "aliases": [
+                    "\u0442\u0435\u043a\u0441\u0442-\u0441\u043d\u0438\u0437\u0443", 
+                    "text-bottom"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_text_bottom"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u0441\u044b\u043b\u043a\u0430=$1", 
+                    "link=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_link"
+            }, 
+            {
+                "aliases": [
+                    "\u0430\u043b\u044c\u0442=$1", 
+                    "alt=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_alt"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u041d\u0423\u0422\u0420:", 
+                    "INT:"
+                ], 
+                "name": "int"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0410\u0419\u0422\u0410", 
+                    "SITENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "sitename"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0418:", 
+                    "NS:"
+                ], 
+                "name": "ns"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0418\u041a:", 
+                    "NSE:"
+                ], 
+                "name": "nse"
+            }, 
+            {
+                "aliases": [
+                    "\u041b\u041e\u041a\u0410\u041b\u042c\u041d\u042b\u0419_\u0410\u0414\u0420\u0415\u0421:", 
+                    "LOCALURL:"
+                ], 
+                "name": "localurl"
+            }, 
+            {
+                "aliases": [
+                    "\u041b\u041e\u041a\u0410\u041b\u042c\u041d\u042b\u0419_\u0410\u0414\u0420\u0415\u0421_2:", 
+                    "LOCALURLE:"
+                ], 
+                "name": "localurle"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0423\u0422\u042c_\u041a_\u0421\u0422\u0410\u0422\u042c\u0415", 
+                    "ARTICLEPATH"
+                ], 
+                "name": "articlepath"
+            }, 
+            {
+                "aliases": [
+                    "\u0418\u0414\u0415\u041d\u0422\u0418\u0424\u0418\u041a\u0410\u0422\u041e\u0420_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b", 
+                    "PAGEID"
+                ], 
+                "name": "pageid"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0415\u0420\u0412\u0415\u0420", 
+                    "SERVER"
+                ], 
+                "name": "server"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u0417\u0412\u0410\u041d\u0418\u0415_\u0421\u0415\u0420\u0412\u0415\u0420\u0410", 
+                    "SERVERNAME"
+                ], 
+                "name": "servername"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0423\u0422\u042c_\u041a_\u0421\u041a\u0420\u0418\u041f\u0422\u0423", 
+                    "SCRIPTPATH"
+                ], 
+                "name": "scriptpath"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0423\u0422\u042c_\u041a_\u0421\u0422\u0418\u041b\u042e", 
+                    "STYLEPATH"
+                ], 
+                "name": "stylepath"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0410\u0414\u0415\u0416:", 
+                    "GRAMMAR:"
+                ], 
+                "name": "grammar"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u041e\u041b:", 
+                    "GENDER:"
+                ], 
+                "name": "gender"
+            }, 
+            {
+                "aliases": [
+                    "__\u0411\u0415\u0417_\u041f\u0420\u0415\u041e\u0411\u0420\u0410\u0417\u041e\u0412\u0410\u041d\u0418\u042f_\u0417\u0410\u0413\u041e\u041b\u041e\u0412\u041a\u0410__", 
+                    "__NOTITLECONVERT__", 
+                    "__NOTC__"
+                ], 
+                "name": "notitleconvert"
+            }, 
+            {
+                "aliases": [
+                    "__\u0411\u0415\u0417_\u041f\u0420\u0415\u041e\u0411\u0420\u0410\u0417\u041e\u0412\u0410\u041d\u0418\u042f_\u0422\u0415\u041a\u0421\u0422\u0410__", 
+                    "__NOCONTENTCONVERT__", 
+                    "__NOCC__"
+                ], 
+                "name": "nocontentconvert"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0410\u042f_\u041d\u0415\u0414\u0415\u041b\u042f", 
+                    "CURRENTWEEK"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentweek"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0418\u0419_\u0414\u0415\u041d\u042c_\u041d\u0415\u0414\u0415\u041b\u0418", 
+                    "CURRENTDOW"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentdow"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u0410\u042f_\u041d\u0415\u0414\u0415\u041b\u042f", 
+                    "LOCALWEEK"
+                ], 
+                "case-sensitive": "", 
+                "name": "localweek"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u0422\u041d\u042b\u0419_\u0414\u0415\u041d\u042c_\u041d\u0415\u0414\u0415\u041b\u0418", 
+                    "LOCALDOW"
+                ], 
+                "case-sensitive": "", 
+                "name": "localdow"
+            }, 
+            {
+                "aliases": [
+                    "\u0418\u0414_\u0412\u0415\u0420\u0421\u0418\u0418", 
+                    "REVISIONID"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionid"
+            }, 
+            {
+                "aliases": [
+                    "\u0414\u0415\u041d\u042c_\u0412\u0415\u0420\u0421\u0418\u0418", 
+                    "REVISIONDAY"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionday"
+            }, 
+            {
+                "aliases": [
+                    "\u0414\u0415\u041d\u042c_\u0412\u0415\u0420\u0421\u0418\u0418_2", 
+                    "REVISIONDAY2"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionday2"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u042f\u0426_\u0412\u0415\u0420\u0421\u0418\u0418", 
+                    "REVISIONMONTH"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionmonth"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0415\u0421\u042f\u0426_\u0412\u0415\u0420\u0421\u0418\u0418_1", 
+                    "REVISIONMONTH1"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionmonth1"
+            }, 
+            {
+                "aliases": [
+                    "\u0413\u041e\u0414_\u0412\u0415\u0420\u0421\u0418\u0418", 
+                    "REVISIONYEAR"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionyear"
+            }, 
+            {
+                "aliases": [
+                    "\u041e\u0422\u041c\u0415\u0422\u041a\u0410_\u0412\u0420\u0415\u041c\u0415\u041d\u0418_\u0412\u0415\u0420\u0421\u0418\u0418", 
+                    "REVISIONTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisiontimestamp"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u0415\u0420\u0421\u0418\u042f_\u0423\u0427\u0410\u0421\u0422\u041d\u0418\u041a\u0410", 
+                    "REVISIONUSER"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionuser"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u041d\u041e\u0416\u0415\u0421\u0422\u0412\u0415\u041d\u041d\u041e\u0415_\u0427\u0418\u0421\u041b\u041e:", 
+                    "PLURAL:"
+                ], 
+                "name": "plural"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u041e\u041b\u041d\u042b\u0419_\u0410\u0414\u0420\u0415\u0421:", 
+                    "FULLURL:"
+                ], 
+                "name": "fullurl"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u041e\u041b\u041d\u042b\u0419_\u0410\u0414\u0420\u0415\u0421_2:", 
+                    "FULLURLE:"
+                ], 
+                "name": "fullurle"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0415\u0420\u0412\u0410\u042f_\u0411\u0423\u041a\u0412\u0410_\u041c\u0410\u041b\u0415\u041d\u042c\u041a\u0410\u042f:", 
+                    "LCFIRST:"
+                ], 
+                "name": "lcfirst"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0415\u0420\u0412\u0410\u042f_\u0411\u0423\u041a\u0412\u0410_\u0411\u041e\u041b\u042c\u0428\u0410\u042f:", 
+                    "UCFIRST:"
+                ], 
+                "name": "ucfirst"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0410\u041b\u0415\u041d\u042c\u041a\u0418\u041c\u0418_\u0411\u0423\u041a\u0412\u0410\u041c\u0418:", 
+                    "LC:"
+                ], 
+                "name": "lc"
+            }, 
+            {
+                "aliases": [
+                    "\u0411\u041e\u041b\u042c\u0428\u0418\u041c\u0418_\u0411\u0423\u041a\u0412\u0410\u041c\u0418:", 
+                    "UC:"
+                ], 
+                "name": "uc"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0415\u041e\u0411\u0420\u0410\u0411:", 
+                    "RAW:"
+                ], 
+                "name": "raw"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u041e\u041a\u0410\u0417\u0410\u0422\u042c_\u0417\u0410\u0413\u041e\u041b\u041e\u0412\u041e\u041a", 
+                    "DISPLAYTITLE"
+                ], 
+                "case-sensitive": "", 
+                "name": "displaytitle"
+            }, 
+            {
+                "aliases": [
+                    "\u041d", 
+                    "R"
+                ], 
+                "case-sensitive": "", 
+                "name": "rawsuffix"
+            }, 
+            {
+                "aliases": [
+                    "__\u0421\u0421\u042b\u041b\u041a\u0410_\u041d\u0410_\u041d\u041e\u0412\u042b\u0419_\u0420\u0410\u0417\u0414\u0415\u041b__", 
+                    "__NEWSECTIONLINK__"
+                ], 
+                "case-sensitive": "", 
+                "name": "newsectionlink"
+            }, 
+            {
+                "aliases": [
+                    "__\u0411\u0415\u0417_\u0421\u0421\u042b\u041b\u041a\u0418_\u041d\u0410_\u041d\u041e\u0412\u042b\u0419_\u0420\u0410\u0417\u0414\u0415\u041b__", 
+                    "__NONEWSECTIONLINK__"
+                ], 
+                "case-sensitive": "", 
+                "name": "nonewsectionlink"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0415\u041a\u0423\u0429\u0410\u042f_\u0412\u0415\u0420\u0421\u0418\u042f", 
+                    "CURRENTVERSION"
+                ], 
+                "case-sensitive": "", 
+                "name": "currentversion"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0410\u041a\u041e\u0414\u0418\u0420\u041e\u0412\u0410\u041d\u041d\u042b\u0419_\u0410\u0414\u0420\u0415\u0421:", 
+                    "URLENCODE:"
+                ], 
+                "name": "urlencode"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u0414\u0418\u0420\u041e\u0412\u0410\u0422\u042c_\u041c\u0415\u0422\u041a\u0423", 
+                    "ANCHORENCODE"
+                ], 
+                "name": "anchorencode"
+            }, 
+            {
+                "aliases": [
+                    "\u041e\u0422\u041c\u0415\u0422\u041a\u0410_\u0422\u0415\u041a\u0423\u0429\u0415\u0413\u041e_\u0412\u0420\u0415\u041c\u0415\u041d\u0418", 
+                    "CURRENTTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "currenttimestamp"
+            }, 
+            {
+                "aliases": [
+                    "\u041e\u0422\u041c\u0415\u0422\u041a\u0410_\u041c\u0415\u0421\u0422\u041d\u041e\u0413\u041e_\u0412\u0420\u0415\u041c\u0415\u041d\u0418", 
+                    "LOCALTIMESTAMP"
+                ], 
+                "case-sensitive": "", 
+                "name": "localtimestamp"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0410\u041f\u0420\u0410\u0412\u041b\u0415\u041d\u0418\u0415_\u041f\u0418\u0421\u042c\u041c\u0410", 
+                    "DIRECTIONMARK", 
+                    "DIRMARK"
+                ], 
+                "case-sensitive": "", 
+                "name": "directionmark"
+            }, 
+            {
+                "aliases": [
+                    "#\u042f\u0417\u042b\u041a:", 
+                    "#LANGUAGE:"
+                ], 
+                "name": "language"
+            }, 
+            {
+                "aliases": [
+                    "\u042f\u0417\u042b\u041a_\u0421\u041e\u0414\u0415\u0420\u0416\u0410\u041d\u0418\u042f", 
+                    "CONTENTLANGUAGE", 
+                    "CONTENTLANG"
+                ], 
+                "case-sensitive": "", 
+                "name": "contentlanguage"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0422\u0420\u0410\u041d\u0418\u0426_\u0412_\u041f\u0420\u041e\u0421\u0422\u0420\u0410\u041d\u0421\u0422\u0412\u0415_\u0418\u041c\u0401\u041d:", 
+                    "PAGESINNAMESPACE:", 
+                    "PAGESINNS:"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesinnamespace"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u041e\u041b\u0418\u0427\u0415\u0421\u0422\u0412\u041e_\u0410\u0414\u041c\u0418\u041d\u0418\u0421\u0422\u0420\u0410\u0422\u041e\u0420\u041e\u0412", 
+                    "NUMBEROFADMINS"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberofadmins"
+            }, 
+            {
+                "aliases": [
+                    "\u0424\u041e\u0420\u041c\u0410\u0422\u0418\u0420\u041e\u0412\u0410\u0422\u042c_\u0427\u0418\u0421\u041b\u041e", 
+                    "FORMATNUM"
+                ], 
+                "name": "formatnum"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0410\u041f\u041e\u041b\u041d\u0418\u0422\u042c_\u0421\u041b\u0415\u0412\u0410", 
+                    "PADLEFT"
+                ], 
+                "name": "padleft"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0410\u041f\u041e\u041b\u041d\u0418\u0422\u042c_\u0421\u041f\u0420\u0410\u0412\u0410", 
+                    "PADRIGHT"
+                ], 
+                "name": "padright"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u043b\u0443\u0436\u0435\u0431\u043d\u0430\u044f", 
+                    "special"
+                ], 
+                "name": "special"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u041e\u0420\u0422\u0418\u0420\u041e\u0412\u041a\u0410_\u041f\u041e_\u0423\u041c\u041e\u041b\u0427\u0410\u041d\u0418\u042e", 
+                    "\u041a\u041b\u042e\u0427_\u0421\u041e\u0420\u0422\u0418\u0420\u041e\u0412\u041a\u0418", 
+                    "DEFAULTSORT:", 
+                    "DEFAULTSORTKEY:", 
+                    "DEFAULTCATEGORYSORT:"
+                ], 
+                "case-sensitive": "", 
+                "name": "defaultsort"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0423\u0422\u042c_\u041a_\u0424\u0410\u0419\u041b\u0423:", 
+                    "FILEPATH:"
+                ], 
+                "name": "filepath"
+            }, 
+            {
+                "aliases": [
+                    "\u043c\u0435\u0442\u043a\u0430", 
+                    "\u0442\u0435\u0433", 
+                    "\u0442\u044d\u0433", 
+                    "tag"
+                ], 
+                "name": "tag"
+            }, 
+            {
+                "aliases": [
+                    "__\u0421\u041a\u0420\u042b\u0422\u0410\u042f_\u041a\u0410\u0422\u0415\u0413\u041e\u0420\u0418\u042f__", 
+                    "__HIDDENCAT__"
+                ], 
+                "case-sensitive": "", 
+                "name": "hiddencat"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0422\u0420\u0410\u041d\u0418\u0426_\u0412_\u041a\u0410\u0422\u0415\u0413\u041e\u0420\u0418\u0418", 
+                    "PAGESINCATEGORY", 
+                    "PAGESINCAT"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesincategory"
+            }, 
+            {
+                "aliases": [
+                    "\u0420\u0410\u0417\u041c\u0415\u0420_\u0421\u0422\u0420\u0410\u041d\u0418\u0426\u042b", 
+                    "PAGESIZE"
+                ], 
+                "case-sensitive": "", 
+                "name": "pagesize"
+            }, 
+            {
+                "aliases": [
+                    "__\u0418\u041d\u0414\u0415\u041a\u0421__", 
+                    "__INDEX__"
+                ], 
+                "case-sensitive": "", 
+                "name": "index"
+            }, 
+            {
+                "aliases": [
+                    "__\u0411\u0415\u0417_\u0418\u041d\u0414\u0415\u041a\u0421\u0410__", 
+                    "__NOINDEX__"
+                ], 
+                "case-sensitive": "", 
+                "name": "noindex"
+            }, 
+            {
+                "aliases": [
+                    "\u0427\u0418\u0421\u041b\u041e_\u0412_\u0413\u0420\u0423\u041f\u041f\u0415", 
+                    "NUMBERINGROUP", 
+                    "NUMINGROUP"
+                ], 
+                "case-sensitive": "", 
+                "name": "numberingroup"
+            }, 
+            {
+                "aliases": [
+                    "__\u0421\u0422\u0410\u0422\u0418\u0427\u0415\u0421\u041a\u041e\u0415_\u041f\u0415\u0420\u0415\u041d\u0410\u041f\u0420\u0410\u0412\u041b\u0415\u041d\u0418\u0415__", 
+                    "__STATICREDIRECT__"
+                ], 
+                "case-sensitive": "", 
+                "name": "staticredirect"
+            }, 
+            {
+                "aliases": [
+                    "\u0423\u0420\u041e\u0412\u0415\u041d\u042c_\u0417\u0410\u0429\u0418\u0422\u042b", 
+                    "PROTECTIONLEVEL"
+                ], 
+                "case-sensitive": "", 
+                "name": "protectionlevel"
+            }, 
+            {
+                "aliases": [
+                    "\u0444\u043e\u0440\u043c\u0430\u0442\u0434\u0430\u0442\u044b", 
+                    "formatdate", 
+                    "dateformat"
+                ], 
+                "name": "formatdate"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0423\u0422\u042c", 
+                    "PATH"
+                ], 
+                "name": "url_path"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u0418\u041a\u0418", 
+                    "WIKI"
+                ], 
+                "name": "url_wiki"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0410\u041f\u0420\u041e\u0421", 
+                    "QUERY"
+                ], 
+                "name": "url_query"
+            }, 
+            {
+                "aliases": [
+                    "\u0432\u0441\u0435", 
+                    "all"
+                ], 
+                "name": "pagesincategory_all"
+            }, 
+            {
+                "aliases": [
+                    "\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "pages"
+                ], 
+                "name": "pagesincategory_pages"
+            }, 
+            {
+                "aliases": [
+                    "\u043f\u043e\u0434\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438", 
+                    "subcats"
+                ], 
+                "name": "pagesincategory_subcats"
+            }, 
+            {
+                "aliases": [
+                    "\u0444\u0430\u0439\u043b\u044b", 
+                    "files"
+                ], 
+                "name": "pagesincategory_files"
+            }, 
+            {
+                "aliases": [
+                    "ROOTPAGENAME"
+                ], 
+                "case-sensitive": "", 
+                "name": "rootpagename"
+            }, 
+            {
+                "aliases": [
+                    "ROOTPAGENAMEE"
+                ], 
+                "case-sensitive": "", 
+                "name": "rootpagenamee"
+            }, 
+            {
+                "aliases": [
+                    "lang=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_lang"
+            }, 
+            {
+                "aliases": [
+                    "class=$1"
+                ], 
+                "case-sensitive": "", 
+                "name": "img_class"
+            }, 
+            {
+                "aliases": [
+                    "REVISIONSIZE"
+                ], 
+                "case-sensitive": "", 
+                "name": "revisionsize"
+            }, 
+            {
+                "aliases": [
+                    "CANONICALURL:"
+                ], 
+                "name": "canonicalurl"
+            }, 
+            {
+                "aliases": [
+                    "CANONICALURLE:"
+                ], 
+                "name": "canonicalurle"
+            }, 
+            {
+                "aliases": [
+                    "NOSEP"
+                ], 
+                "name": "nocommafysuffix"
+            }, 
+            {
+                "aliases": [
+                    "speciale"
+                ], 
+                "name": "speciale"
+            }, 
+            {
+                "aliases": [
+                    "CASCADINGSOURCES"
+                ], 
+                "case-sensitive": "", 
+                "name": "cascadingsources"
+            }, 
+            {
+                "aliases": [
+                    "noerror"
+                ], 
+                "name": "defaultsort_noerror"
+            }, 
+            {
+                "aliases": [
+                    "noreplace"
+                ], 
+                "name": "defaultsort_noreplace"
+            }
+        ], 
+        "namespacealiases": [
+            {
+                "*": "\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u0446\u0430", 
+                "id": 2
+            }, 
+            {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u0446\u044b", 
+                "id": 3
+            }, 
+            {
+                "*": "Image", 
+                "id": 6
+            }, 
+            {
+                "*": "\u0418\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435", 
+                "id": 6
+            }, 
+            {
+                "*": "Image talk", 
+                "id": 7
+            }, 
+            {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f", 
+                "id": 7
+            }
+        ], 
+        "namespaces": {
+            "-1": {
+                "*": "\u0421\u043b\u0443\u0436\u0435\u0431\u043d\u0430\u044f", 
+                "canonical": "Special", 
+                "case": "first-letter", 
+                "id": -1
+            }, 
+            "-2": {
+                "*": "\u041c\u0435\u0434\u0438\u0430", 
+                "canonical": "Media", 
+                "case": "first-letter", 
+                "id": -2
+            }, 
+            "0": {
+                "*": "", 
+                "case": "first-letter", 
+                "content": "", 
+                "id": 0
+            }, 
+            "1": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435", 
+                "canonical": "Talk", 
+                "case": "first-letter", 
+                "id": 1, 
+                "subpages": ""
+            }, 
+            "10": {
+                "*": "\u0428\u0430\u0431\u043b\u043e\u043d", 
+                "canonical": "Template", 
+                "case": "first-letter", 
+                "id": 10
+            }, 
+            "11": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0448\u0430\u0431\u043b\u043e\u043d\u0430", 
+                "canonical": "Template talk", 
+                "case": "first-letter", 
+                "id": 11, 
+                "subpages": ""
+            }, 
+            "12": {
+                "*": "\u0421\u043f\u0440\u0430\u0432\u043a\u0430", 
+                "canonical": "Help", 
+                "case": "first-letter", 
+                "id": 12, 
+                "subpages": ""
+            }, 
+            "13": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0441\u043f\u0440\u0430\u0432\u043a\u0438", 
+                "canonical": "Help talk", 
+                "case": "first-letter", 
+                "id": 13, 
+                "subpages": ""
+            }, 
+            "14": {
+                "*": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f", 
+                "canonical": "Category", 
+                "case": "first-letter", 
+                "id": 14
+            }, 
+            "15": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438", 
+                "canonical": "Category talk", 
+                "case": "first-letter", 
+                "id": 15, 
+                "subpages": ""
+            }, 
+            "2": {
+                "*": "\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a", 
+                "canonical": "User", 
+                "case": "first-letter", 
+                "id": 2, 
+                "subpages": ""
+            }, 
+            "3": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0430", 
+                "canonical": "User talk", 
+                "case": "first-letter", 
+                "id": 3, 
+                "subpages": ""
+            }, 
+            "4": {
+                "*": "SpeccyWiki", 
+                "canonical": "Project", 
+                "case": "first-letter", 
+                "id": 4, 
+                "subpages": ""
+            }, 
+            "5": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 SpeccyWiki", 
+                "canonical": "Project talk", 
+                "case": "first-letter", 
+                "id": 5, 
+                "subpages": ""
+            }, 
+            "6": {
+                "*": "\u0424\u0430\u0439\u043b", 
+                "canonical": "File", 
+                "case": "first-letter", 
+                "id": 6
+            }, 
+            "7": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u0430", 
+                "canonical": "File talk", 
+                "case": "first-letter", 
+                "id": 7, 
+                "subpages": ""
+            }, 
+            "8": {
+                "*": "MediaWiki", 
+                "canonical": "MediaWiki", 
+                "case": "first-letter", 
+                "id": 8, 
+                "subpages": ""
+            }, 
+            "9": {
+                "*": "\u041e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435 MediaWiki", 
+                "canonical": "MediaWiki talk", 
+                "case": "first-letter", 
+                "id": 9, 
+                "subpages": ""
+            }
+        }, 
+        "rightsinfo": {
+            "text": "", 
+            "url": ""
+        }, 
+        "skins": [
+            {
+                "*": "CologneBlue", 
+                "code": "cologneblue"
+            }, 
+            {
+                "*": "MonoBook", 
+                "code": "monobook", 
+                "default": ""
+            }, 
+            {
+                "*": "Modern", 
+                "code": "modern"
+            }, 
+            {
+                "*": "Vector", 
+                "code": "vector"
+            }
+        ], 
+        "specialpagealiases": [
+            {
+                "aliases": [
+                    "\u0420\u0430\u0437\u043e\u0440\u0432\u0430\u043d\u043d\u044b\u0435_\u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f", 
+                    "BrokenRedirects"
+                ], 
+                "realname": "BrokenRedirects"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0443\u043f\u0438\u043a\u043e\u0432\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "DeadendPages"
+                ], 
+                "realname": "Deadendpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0414\u0432\u043e\u0439\u043d\u044b\u0435_\u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f", 
+                    "DoubleRedirects"
+                ], 
+                "realname": "DoubleRedirects"
+            }, 
+            {
+                "aliases": [
+                    "\u0414\u043b\u0438\u043d\u043d\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "LongPages"
+                ], 
+                "realname": "Longpages"
+            }, 
+            {
+                "aliases": [
+                    "AncientPages"
+                ], 
+                "realname": "Ancientpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0418\u0437\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "LonelyPages", 
+                    "OrphanedPages"
+                ], 
+                "realname": "Lonelypages"
+            }, 
+            {
+                "aliases": [
+                    "\u0420\u0435\u0434\u043a\u043e_\u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u043c\u044b\u0435", 
+                    "FewestRevisions"
+                ], 
+                "realname": "Fewestrevisions"
+            }, 
+            {
+                "aliases": [
+                    "\u0411\u0435\u0437_\u0438\u043d\u0442\u0435\u0440\u0432\u0438\u043a\u0438", 
+                    "WithoutInterwiki"
+                ], 
+                "realname": "Withoutinterwiki"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0430\u0449\u0438\u0449\u0451\u043d\u043d\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "ProtectedPages"
+                ], 
+                "realname": "Protectedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0430\u0449\u0438\u0449\u0451\u043d\u043d\u044b\u0435_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f", 
+                    "ProtectedTitles"
+                ], 
+                "realname": "Protectedtitles"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u043e\u0440\u043e\u0442\u043a\u0438\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "ShortPages"
+                ], 
+                "realname": "Shortpages"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0435\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438", 
+                    "UncategorizedCategories"
+                ], 
+                "realname": "Uncategorizedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0435\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u0444\u0430\u0439\u043b\u044b", 
+                    "UncategorizedFiles", 
+                    "UncategorizedImages"
+                ], 
+                "realname": "Uncategorizedimages"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0435\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "UncategorizedPages"
+                ], 
+                "realname": "Uncategorizedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0435\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0435_\u0448\u0430\u0431\u043b\u043e\u043d\u044b", 
+                    "UncategorizedTemplates"
+                ], 
+                "realname": "Uncategorizedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0435\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435_\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438", 
+                    "UnusedCategories"
+                ], 
+                "realname": "Unusedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0435\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435_\u0444\u0430\u0439\u043b\u044b", 
+                    "UnusedFiles", 
+                    "UnusedImages"
+                ], 
+                "realname": "Unusedimages"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0435\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435_\u0448\u0430\u0431\u043b\u043e\u043d\u044b", 
+                    "UnusedTemplates"
+                ], 
+                "realname": "Unusedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "UnwatchedPages"
+                ], 
+                "realname": "Unwatchedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435_\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438", 
+                    "WantedCategories"
+                ], 
+                "realname": "Wantedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435_\u0444\u0430\u0439\u043b\u044b", 
+                    "WantedFiles"
+                ], 
+                "realname": "Wantedfiles"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "WantedPages", 
+                    "BrokenLinks"
+                ], 
+                "realname": "Wantedpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0422\u0440\u0435\u0431\u0443\u0435\u043c\u044b\u0435_\u0448\u0430\u0431\u043b\u043e\u043d\u044b", 
+                    "WantedTemplates"
+                ], 
+                "realname": "Wantedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u0441\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "AllPages"
+                ], 
+                "realname": "Allpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0423\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c_\u043f\u043e_\u043d\u0430\u0447\u0430\u043b\u0443_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f", 
+                    "PrefixIndex"
+                ], 
+                "realname": "Prefixindex"
+            }, 
+            {
+                "aliases": [
+                    "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438", 
+                    "Categories"
+                ], 
+                "realname": "Categories"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0439", 
+                    "ListRedirects"
+                ], 
+                "realname": "Listredirects"
+            }, 
+            {
+                "aliases": [
+                    "PagesWithProp", 
+                    "Pageswithprop", 
+                    "PagesByProp", 
+                    "Pagesbyprop"
+                ], 
+                "realname": "PagesWithProp"
+            }, 
+            {
+                "aliases": [
+                    "TrackingCategories"
+                ], 
+                "realname": "TrackingCategories"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u0445\u043e\u0434", 
+                    "UserLogin", 
+                    "Login"
+                ], 
+                "realname": "Userlogin"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043e\u0437\u0434\u0430\u0442\u044c_\u0443\u0447\u0451\u0442\u043d\u0443\u044e_\u0437\u0430\u043f\u0438\u0441\u044c", 
+                    "\u0421\u043e\u0437\u0434\u0430\u0442\u044c_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f", 
+                    "\u0417\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f", 
+                    "CreateAccount"
+                ], 
+                "realname": "CreateAccount"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c", 
+                    "Block", 
+                    "BlockIP", 
+                    "BlockUser"
+                ], 
+                "realname": "Block"
+            }, 
+            {
+                "aliases": [
+                    "\u0420\u0430\u0437\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0430", 
+                    "Unblock"
+                ], 
+                "realname": "Unblock"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043e\u043a", 
+                    "\u0411\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0438", 
+                    "BlockList", 
+                    "ListBlocks", 
+                    "IPBlockList"
+                ], 
+                "realname": "BlockList"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043c\u0435\u043d\u0438\u0442\u044c_\u043f\u0430\u0440\u043e\u043b\u044c", 
+                    "ChangePassword", 
+                    "ResetPass", 
+                    "ResetPassword"
+                ], 
+                "realname": "ChangePassword"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0431\u0440\u043e\u0441_\u043f\u0430\u0440\u043e\u043b\u044f", 
+                    "PasswordReset"
+                ], 
+                "realname": "PasswordReset"
+            }, 
+            {
+                "aliases": [
+                    "\u0423\u0434\u0430\u043b\u0451\u043d\u043d\u044b\u0439_\u0432\u043a\u043b\u0430\u0434", 
+                    "DeletedContributions"
+                ], 
+                "realname": "DeletedContributions"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438", 
+                    "Preferences"
+                ], 
+                "realname": "Preferences"
+            }, 
+            {
+                "aliases": [
+                    "ResetTokens"
+                ], 
+                "realname": "ResetTokens"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u043a\u043b\u0430\u0434", 
+                    "Contributions", 
+                    "Contribs"
+                ], 
+                "realname": "Contributions"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0440\u0430\u0432\u0430_\u0433\u0440\u0443\u043f\u043f_\u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432", 
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u043f\u0440\u0430\u0432_\u0433\u0440\u0443\u043f\u043f", 
+                    "ListGroupRights", 
+                    "UserGroupRights"
+                ], 
+                "realname": "Listgrouprights"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u043e\u0432", 
+                    "ListUsers", 
+                    "UserList"
+                ], 
+                "realname": "Listusers"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u0432", 
+                    "ListAdmins"
+                ], 
+                "realname": "Listadmins"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u0431\u043e\u0442\u043e\u0432", 
+                    "ListBots"
+                ], 
+                "realname": "Listbots"
+            }, 
+            {
+                "aliases": [
+                    "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435_\u043f\u0440\u0430\u0432\u0430\u043c\u0438", 
+                    "UserRights", 
+                    "MakeSysop", 
+                    "MakeBot"
+                ], 
+                "realname": "Userrights"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0440\u0430\u0432\u0438\u0442\u044c_\u0441\u043f\u0438\u0441\u043e\u043a_\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f", 
+                    "EditWatchlist"
+                ], 
+                "realname": "EditWatchlist"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u043e\u0432\u044b\u0435_\u0444\u0430\u0439\u043b\u044b", 
+                    "NewFiles", 
+                    "NewImages"
+                ], 
+                "realname": "Newimages"
+            }, 
+            {
+                "aliases": [
+                    "\u0416\u0443\u0440\u043d\u0430\u043b\u044b", 
+                    "\u0416\u0443\u0440\u043d\u0430\u043b", 
+                    "Log", 
+                    "Logs"
+                ], 
+                "realname": "Log"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f", 
+                    "Watchlist"
+                ], 
+                "realname": "Watchlist"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u043e\u0432\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "NewPages"
+                ], 
+                "realname": "Newpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0432\u0435\u0436\u0438\u0435_\u043f\u0440\u0430\u0432\u043a\u0438", 
+                    "RecentChanges"
+                ], 
+                "realname": "Recentchanges"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435_\u043f\u0440\u0430\u0432\u043a\u0438", 
+                    "RecentChangesLinked", 
+                    "RelatedChanges"
+                ], 
+                "realname": "Recentchangeslinked"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u0435\u0442\u043a\u0438", 
+                    "Tags"
+                ], 
+                "realname": "Tags"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u0444\u0430\u0439\u043b\u043e\u0432", 
+                    "\u0421\u043f\u0438\u0441\u043e\u043a_\u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0439", 
+                    "ListFiles", 
+                    "FileList", 
+                    "ImageList"
+                ], 
+                "realname": "Listfiles"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0443\u0442\u044c_\u043a_\u0444\u0430\u0439\u043b\u0443", 
+                    "FilePath"
+                ], 
+                "realname": "Filepath"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u043e\u0438\u0441\u043a_\u043f\u043e_MIME", 
+                    "MIMESearch"
+                ], 
+                "realname": "MIMEsearch"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u043e\u0438\u0441\u043a_\u0434\u0443\u0431\u043b\u0438\u043a\u0430\u0442\u043e\u0432_\u0444\u0430\u0439\u043b\u043e\u0432", 
+                    "FileDuplicateSearch"
+                ], 
+                "realname": "FileDuplicateSearch"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430", 
+                    "Upload"
+                ], 
+                "realname": "Upload"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043a\u0440\u044b\u0442\u043d\u0430\u044f_\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430", 
+                    "UploadStash"
+                ], 
+                "realname": "UploadStash"
+            }, 
+            {
+                "aliases": [
+                    "ListDuplicatedFiles", 
+                    "ListFileDuplicates"
+                ], 
+                "realname": "ListDuplicatedFiles"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430", 
+                    "Statistics"
+                ], 
+                "realname": "Statistics"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0438\u0441\u0442\u0435\u043c\u043d\u044b\u0435_\u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f", 
+                    "AllMessages"
+                ], 
+                "realname": "Allmessages"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u0435\u0440\u0441\u0438\u044f", 
+                    "Version"
+                ], 
+                "realname": "Version"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c_\u0411\u0414", 
+                    "\u0417\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c_\u0431\u0430\u0437\u0443_\u0434\u0430\u043d\u043d\u044b\u0445", 
+                    "LockDB"
+                ], 
+                "realname": "Lockdb"
+            }, 
+            {
+                "aliases": [
+                    "\u0420\u0430\u0437\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0430_\u0411\u0414", 
+                    "UnlockDB"
+                ], 
+                "realname": "Unlockdb"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u043e\u0438\u0441\u043a_\u0441\u0441\u044b\u043b\u043e\u043a", 
+                    "LinkSearch"
+                ], 
+                "realname": "LinkSearch"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u0430\u044f_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", 
+                    "\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u0430\u044f", 
+                    "Random", 
+                    "RandomPage"
+                ], 
+                "realname": "Randompage"
+            }, 
+            {
+                "aliases": [
+                    "RandomInCategory"
+                ], 
+                "realname": "RandomInCategory"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0435_\u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435", 
+                    "RandomRedirect"
+                ], 
+                "realname": "Randomredirect"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0430\u043c\u044b\u0435_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435_\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438", 
+                    "MostLinkedCategories", 
+                    "MostUsedCategories"
+                ], 
+                "realname": "Mostlinkedcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0430\u043c\u044b\u0435_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435_\u0444\u0430\u0439\u043b\u044b", 
+                    "MostLinkedFiles", 
+                    "MostFiles", 
+                    "MostImages"
+                ], 
+                "realname": "Mostimages"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0430\u0438\u0431\u043e\u043b\u044c\u0448\u0435\u0435_\u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e_\u0438\u043d\u0442\u0435\u0440\u0432\u0438\u043a\u0438-\u0441\u0441\u044b\u043b\u043e\u043a", 
+                    "MostInterwikis"
+                ], 
+                "realname": "Mostinterwikis"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0430\u043c\u044b\u0435_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "MostLinkedPages", 
+                    "MostLinked"
+                ], 
+                "realname": "Mostlinked"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0430\u043c\u044b\u0435_\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0435_\u0448\u0430\u0431\u043b\u043e\u043d\u044b", 
+                    "MostLinkedTemplates", 
+                    "MostUsedTemplates"
+                ], 
+                "realname": "Mostlinkedtemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0430\u043c\u044b\u0435_\u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0435", 
+                    "MostCategories"
+                ], 
+                "realname": "Mostcategories"
+            }, 
+            {
+                "aliases": [
+                    "\u041d\u0430\u0438\u0431\u043e\u043b\u044c\u0448\u0435\u0435_\u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e_\u0432\u0435\u0440\u0441\u0438\u0439", 
+                    "MostRevisions"
+                ], 
+                "realname": "Mostrevisions"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446", 
+                    "ComparePages"
+                ], 
+                "realname": "ComparePages"
+            }, 
+            {
+                "aliases": [
+                    "\u042d\u043a\u0441\u043f\u043e\u0440\u0442", 
+                    "\u0412\u044b\u0433\u0440\u0443\u0437\u043a\u0430", 
+                    "Export"
+                ], 
+                "realname": "Export"
+            }, 
+            {
+                "aliases": [
+                    "\u0418\u043c\u043f\u043e\u0440\u0442", 
+                    "Import"
+                ], 
+                "realname": "Import"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c", 
+                    "\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435", 
+                    "Undelete"
+                ], 
+                "realname": "Undelete"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u0441\u044b\u043b\u043a\u0438_\u0441\u044e\u0434\u0430", 
+                    "WhatLinksHere"
+                ], 
+                "realname": "Whatlinkshere"
+            }, 
+            {
+                "aliases": [
+                    "\u041e\u0431\u044a\u0435\u0434\u0438\u043d\u0435\u043d\u0438\u0435_\u0438\u0441\u0442\u043e\u0440\u0438\u0439", 
+                    "MergeHistory"
+                ], 
+                "realname": "MergeHistory"
+            }, 
+            {
+                "aliases": [
+                    "\u0420\u0430\u0437\u0432\u0451\u0440\u0442\u043a\u0430_\u0448\u0430\u0431\u043b\u043e\u043d\u043e\u0432", 
+                    "ExpandTemplates"
+                ], 
+                "realname": "ExpandTemplates"
+            }, 
+            {
+                "aliases": [
+                    "\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438_\u043a\u043d\u0438\u0433", 
+                    "BookSources"
+                ], 
+                "realname": "Booksources"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0443\u0441\u0442\u0430\u044f_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", 
+                    "BlankPage"
+                ], 
+                "realname": "Blankpage"
+            }, 
+            {
+                "aliases": [
+                    "Diff"
+                ], 
+                "realname": "Diff"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0438\u0441\u044c\u043c\u043e_\u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0443", 
+                    "\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c_\u043f\u0438\u0441\u044c\u043c\u043e", 
+                    "EmailUser"
+                ], 
+                "realname": "Emailuser"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u0442\u044c_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443", 
+                    "\u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435", 
+                    "\u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u0442\u044c", 
+                    "MovePage"
+                ], 
+                "realname": "Movepage"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u043e\u0439_\u0432\u043a\u043b\u0430\u0434", 
+                    "MyContributions"
+                ], 
+                "realname": "Mycontributions"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u043e\u044f_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430", 
+                    "MyPage"
+                ], 
+                "realname": "Mypage"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u043e\u0451_\u043e\u0431\u0441\u0443\u0436\u0434\u0435\u043d\u0438\u0435", 
+                    "MyTalk"
+                ], 
+                "realname": "Mytalk"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u043e\u0438_\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438", 
+                    "MyUploads", 
+                    "MyFiles"
+                ], 
+                "realname": "Myuploads"
+            }, 
+            {
+                "aliases": [
+                    "\u0412\u0441\u0435_\u043c\u043e\u0438_\u0444\u0430\u0439\u043b\u044b", 
+                    "AllMyUploads", 
+                    "AllMyFiles"
+                ], 
+                "realname": "AllMyUploads"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u0430\u044f_\u0441\u0441\u044b\u043b\u043a\u0430", 
+                    "PermanentLink", 
+                    "PermaLink"
+                ], 
+                "realname": "PermanentLink"
+            }, 
+            {
+                "aliases": [
+                    "Redirect"
+                ], 
+                "realname": "Redirect"
+            }, 
+            {
+                "aliases": [
+                    "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435_\u043f\u0440\u0430\u0432\u043a\u0438", 
+                    "RevisionDelete"
+                ], 
+                "realname": "Revisiondelete"
+            }, 
+            {
+                "aliases": [
+                    "RunJobs"
+                ], 
+                "realname": "RunJobs"
+            }, 
+            {
+                "aliases": [
+                    "\u0421\u043f\u0435\u0446\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "SpecialPages"
+                ], 
+                "realname": "Specialpages"
+            }, 
+            {
+                "aliases": [
+                    "\u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435_\u0441\u0435\u0430\u043d\u0441\u0430", 
+                    "\u0412\u044b\u0445\u043e\u0434", 
+                    "UserLogout", 
+                    "Logout"
+                ], 
+                "realname": "Userlogout"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u044b\u0435_\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b", 
+                    "PopularPages"
+                ], 
+                "realname": "Popularpages"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u043e\u0438\u0441\u043a", 
+                    "Search"
+                ], 
+                "realname": "Search"
+            }, 
+            {
+                "aliases": [
+                    "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c_e-mail", 
+                    "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c_\u043f\u043e\u0447\u0442\u0443", 
+                    "ConfirmEmail"
+                ], 
+                "realname": "Confirmemail"
+            }, 
+            {
+                "aliases": [
+                    "\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c_\u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435_\u0430\u0434\u0440\u0435\u0441\u0430", 
+                    "InvalidateEmail"
+                ], 
+                "realname": "Invalidateemail"
+            }, 
+            {
+                "aliases": [
+                    "\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435_\u0443\u0447\u0430\u0441\u0442\u043d\u0438\u043a\u0438", 
+                    "ActiveUsers"
+                ], 
+                "realname": "Activeusers"
+            }, 
+            {
+                "aliases": [
+                    "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435_\u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435", 
+                    "Nuke"
+                ], 
+                "realname": "Nuke"
+            }, 
+            {
+                "aliases": [
+                    "DeleteBatch"
+                ], 
+                "realname": "DeleteBatch"
+            }, 
+            {
+                "aliases": [
+                    "\u0418\u043d\u0442\u0435\u0440\u0432\u0438\u043a\u0438", 
+                    "Interwiki"
+                ], 
+                "realname": "Interwiki"
+            }, 
+            {
+                "aliases": [
+                    "Captcha"
+                ], 
+                "realname": "Captcha"
+            }, 
+            {
+                "aliases": [
+                    "UserMerge"
+                ], 
+                "realname": "UserMerge"
+            }
+        ], 
+        "statistics": {
+            "activeusers": 1, 
+            "admins": 8, 
+            "articles": 5019, 
+            "edits": 37538, 
+            "images": 3404, 
+            "jobs": 0, 
+            "pages": 11389, 
+            "users": 681, 
+            "views": 30178435
+        }, 
+        "usergroups": [
+            {
+                "name": "*", 
+                "rights": [
+                    "read", 
+                    "createpage", 
+                    "createtalk", 
+                    "writeapi", 
+                    "editmyusercss", 
+                    "editmyuserjs", 
+                    "viewmywatchlist", 
+                    "editmywatchlist", 
+                    "viewmyprivateinfo", 
+                    "editmyprivateinfo", 
+                    "editmyoptions"
+                ]
+            }, 
+            {
+                "name": "user", 
+                "number": "681", 
+                "rights": [
+                    "movefile", 
+                    "read", 
+                    "edit", 
+                    "createpage", 
+                    "createtalk", 
+                    "writeapi", 
+                    "upload", 
+                    "reupload", 
+                    "reupload-shared", 
+                    "minoredit", 
+                    "purge", 
+                    "sendemail"
+                ]
+            }, 
+            {
+                "name": "autoconfirmed", 
+                "rights": [
+                    "autoconfirmed", 
+                    "editsemiprotected"
+                ]
+            }, 
+            {
+                "name": "bot", 
+                "number": "0", 
+                "rights": [
+                    "bot", 
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "nominornewtalk", 
+                    "autopatrol", 
+                    "suppressredirect", 
+                    "apihighlimits", 
+                    "writeapi", 
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "name": "sysop", 
+                "number": "8", 
+                "rights": [
+                    "block", 
+                    "createaccount", 
+                    "delete", 
+                    "bigdelete", 
+                    "deletedhistory", 
+                    "deletedtext", 
+                    "undelete", 
+                    "editinterface", 
+                    "editusercss", 
+                    "edituserjs", 
+                    "import", 
+                    "importupload", 
+                    "move", 
+                    "move-subpages", 
+                    "move-rootuserpages", 
+                    "patrol", 
+                    "autopatrol", 
+                    "protect", 
+                    "editprotected", 
+                    "proxyunbannable", 
+                    "rollback", 
+                    "upload", 
+                    "reupload", 
+                    "reupload-shared", 
+                    "unwatchedpages", 
+                    "autoconfirmed", 
+                    "editsemiprotected", 
+                    "ipblock-exempt", 
+                    "blockemail", 
+                    "markbotedits", 
+                    "apihighlimits", 
+                    "browsearchive", 
+                    "noratelimit", 
+                    "movefile", 
+                    "unblockself", 
+                    "suppressredirect", 
+                    "nuke", 
+                    "interwiki", 
+                    "skipcaptcha"
+                ]
+            }, 
+            {
+                "name": "bureaucrat", 
+                "number": "6", 
+                "rights": [
+                    "userrights", 
+                    "noratelimit", 
+                    "deletebatch", 
+                    "usermerge"
+                ]
+            }
+        ]
+    }
+}
